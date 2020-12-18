@@ -16,7 +16,7 @@
     <div class="buat">
         <p>Buat Laporan/Komentar</p>
         <hr>
-        <form method="POST" action="<?= base_url('lapor/tambah') ?>">
+        <form method="POST" action="<?= base_url('lapor/lapor') ?>" enctype="multipart/form-data">
             <textarea name="isi" style="height: 50%; width:100%"></textarea>
 
             <br><br>
@@ -30,7 +30,7 @@
             <br><br><br>
 
             <label class="ch">
-                <input type="file" name="berkas" value="choose file">Choose File
+                <input type="file" name="berkas" id="" value="choose file">Choose File
             </label>
 
             <br><br>

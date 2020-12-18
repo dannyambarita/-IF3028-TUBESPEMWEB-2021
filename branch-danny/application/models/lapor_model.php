@@ -39,8 +39,9 @@ class lapor_model extends CI_Model
 
             $data = array(
                 'isi' => $isi,
-                'aspek'     => $aspek,
-                'file' => $lampiran
+                'aspek' => $aspek,
+                'file' => $lampiran,
+                'waktu' => date('Y-m-d H-i-s', time())
             );
 
             $this->db->insert('laporan', $data);

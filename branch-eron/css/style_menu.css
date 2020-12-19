@@ -1,0 +1,19 @@
+.judul {
+    text-align: center;
+    
+}
+
+.judul a {
+    color: black;
+    text-decoration: none;
+}
+
+.kolom{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kanan  {
+    float: right;
+    margin-top: -50px;
+}

@@ -11,11 +11,13 @@
         <br>
         <h1>SIMPLE LAPOR!</h1>
         <div class="cari">
-            <label for="cari"></label>
-            <input type="text" class="kotak" id="cari" name="cari" placeholder="cari">
-            <div class="u">
-                <input class="up" type="submit" value="Cari">
-            </div>
+            <form action="<?= base_url('detail/cari') ?>">
+                <label for="cari"></label>
+                <input type="text" class="kotak" id="cari" name="cari" placeholder="cari">
+                <div class="u">
+                    <input class="up" type="submit" value="Cari">
+                </div>
+            </form>
         </div>
         <br>
         <a href="<?= base_url('lapor') ?>">Buat laporan/komentar</a>

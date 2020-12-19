@@ -13,21 +13,19 @@
     padding: 20px;
 }
 
-.buat .u {
-    text-align: right;
+input[type="file"]{
+    display: none;
 }
-.buat .up {
+.up {
     background-color: white;
     color: black;
-    padding: 16px;
+    padding: 19px;
+    border: 1px solid black;
     font-size: 16px;
     cursor: pointer;
     
 }
 
-input[type="file"]{
-    display: none;
-}
 
 .kolom{
     margin-left: 100px;
